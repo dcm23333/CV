@@ -1,0 +1,26 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+
+# ---- 运行产物：截图忽略，但保留手动标定的 ROI 配置 ----
+captures/*
+!captures/*.json
+*.log
+
+# ---- IDE / 工具数据（含工作区记忆，属本地数据不入库）----
+.workbuddy/
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
